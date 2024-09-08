@@ -2,6 +2,10 @@ alias vim=nvim
 alias v=vim
 alias t=tmux
 alias l="ls -lhF"
+alias vc="cd ~/.config/nvim && nvim"
+
+# PATH
+export PATH=~/bin:$PATH
 
 # Obsidian
 alias oo='cd $HOME/brain'
